@@ -22,7 +22,7 @@ async function getRawApi() {
 
       resultsContainer.innerHTML += `<div class="results">
           <p>
-            ${results[i].name} ${results[i].rating} ${results[i].tags.length} ${results[i].totalTags.length}
+            ${results[i].name} ${results[i].rating} ${results[i].tags.length}
           </p>
         </div>`;
     }
