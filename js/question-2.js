@@ -20,7 +20,7 @@ async function getRawApi() {
 
       const totalTags = results[i].length;
 
-      resultsContainer.innerHTML += `<div class="results">
+      resultsContainer.innerHTML += `<div class="box">
           <p>
             ${results[i].name} ${results[i].rating} ${results[i].tags.length}
           </p>
